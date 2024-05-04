@@ -1,9 +1,7 @@
-.modal.fade.show {
-    background-color: rgba(255, 255, 255, 0.76);
-    border: none; 
-  }
+.modal-content{
+  border-radius: 1.5em !important;
+}
 
-.modal-dialog.modal-dialog-centered{
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
+.btn.btn-secondary{
+  border-radius: 2em;
 }

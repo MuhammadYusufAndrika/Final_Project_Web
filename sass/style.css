@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
 }
 
 #home {
@@ -87,6 +86,7 @@ ul li {
   left: 0;
   right: 0;
   z-index: 9999;
+  background-color: #ffffff;
 }
 
 .logo img {
@@ -150,7 +150,7 @@ ul li {
 
 /*card button*/
 .btn.btn-primary {
-  border-radius: 1em;
+  border-radius: 2em;
   background-color: #0073ff;
   color: #fff; /* Warna teks putih */
   font-size: 14px;
@@ -203,4 +203,12 @@ h1 {
 
 about.row_margin-top.col-sm-4_block1 {
   height: 100px;
+}
+
+.modal-content {
+  border-radius: 1.5em !important;
+}
+
+.btn.btn-secondary {
+  border-radius: 2em;
 }/*# sourceMappingURL=style.css.map */
