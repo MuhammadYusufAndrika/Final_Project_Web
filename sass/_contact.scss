@@ -1,55 +1,31 @@
-#contatti{
-    background-color: #3259ab;
-    letter-spacing: 2px;
-    }
-  #contatti a{
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  
-  @media (max-width: 575.98px) {
-  
-    #contatti{padding-bottom: 800px;}
-    #contatti .maps iframe{
-      width: 100%;
-      height: 450px;
-    }
-   }
-  
-  
-  @media (min-width: 576px) {
-  
-     #contatti{padding-bottom: 800px;}
-  
-     #contatti .maps iframe{
-       width: 100%;
-       height: 450px;
-     }
-   }
-  
-  @media (min-width: 768px) {
-  
-    #contatti{padding-bottom: 350px;}
-  
-    #contatti .maps iframe{
-      width: 100%;
-      height: 850px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    #contatti{padding-bottom: 200px;}
-  
-     #contatti .maps iframe{
-       width: 100%;
-       height: 700px;
-     }
-  }
-  
-  
-  #author a{
-    color: #fff;
-    text-decoration: none;
-      
-  }
+*{
+  margin:0;
+  padding: 0;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.kotak1{
+  background : #3259ab;
+  color : white;
+  height: 250px;
+  margin-top: 20px;
+  padding-top: 80px;
+  padding-left: 1cap
+}
+
+.judul{
+  text-align: center;
+  margin-top: 35px;
+  font-size: 46px;
+  color: orange;
+}
+.peta{
+  justify-content: left;
+  padding-left: 135px;
+  align-items : left;
+  display: flex;
+  text-align: left;
+}
