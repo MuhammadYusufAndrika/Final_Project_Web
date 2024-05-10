@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 4px !important;
   border-bottom: 1px solid #437fc7;
   position: fixed !important;
   top: 0;
@@ -13,22 +13,25 @@
 }
 
 .logo img {
-  height: 20px;
+  height: 35px;
   width: auto;
+  margin-left: 20rem;
 }
 
 .navbar-links {
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   align-items: center;
+  margin-right: 20rem;
 }
 
 .navbar .navbar-links a {
   color: #0073ff;
-  padding: 10px;  
+  padding: 10px;
   font-size: 20px;
   margin-left: 0 20px;
   text-decoration: none;
+
 }
 
 // dropdown
@@ -45,7 +48,7 @@
 .dropdown-item {
   padding: 8px 12px;
   color: #333;
-  align-items: center ;
+  align-items: center;
 }
 
 .dropdown-item:hover {

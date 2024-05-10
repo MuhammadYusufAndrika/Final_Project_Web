@@ -40,12 +40,10 @@ section {
 
 /* Style footer */
 footer {
-  padding: 10px 0;
   position: fixed;
   text-align: center;
   width: 100%;
   bottom: 0;
-  background-color: #437fc7;
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -77,7 +75,7 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 4px !important;
   border-bottom: 1px solid #437fc7;
   position: fixed !important;
   top: 0;
@@ -88,14 +86,16 @@ ul li {
 }
 
 .logo img {
-  height: 20px;
+  height: 35px;
   width: auto;
+  margin-left: 20rem;
 }
 
 .navbar-links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 20rem;
 }
 
 .navbar .navbar-links a {
@@ -195,6 +195,10 @@ ul li {
      object-position: center center;
   width: 100%;
   height: 75vh;
+}
+
+.accordion {
+  margin-bottom: 80px;
 }
 
 .accordion-item {
