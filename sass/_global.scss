@@ -9,11 +9,9 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  background-image: url(/assets/images/bg1.jpeg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  margin-bottom: 10%;
+
 }
 
 /*Pilih Paketmu*/
@@ -24,6 +22,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 100px;
 }
 .pilih-paket h5,
 .pilih-paket h1 {
@@ -32,7 +31,7 @@
 
 /* Set full height for sections */
 section {
-  height: 100vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,3 +73,4 @@ ul {
 ul li {
   margin-bottom: 10px;
 }
+
