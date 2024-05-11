@@ -198,23 +198,14 @@ ul li {
   margin-bottom: 50px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-div {
-  display: block;
-  unicode-bidi: isolate;
-}
-
 .kotak1 {
   background: #3259ab;
   color: white;
   height: 250px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 80px;
   padding-left: 135px;
+  padding-bottom: 80px;
 }
 
 .judul {
@@ -225,9 +216,10 @@ div {
 }
 
 .peta {
+  margin-top: 40px;
+  margin-bottom: 40px;
   justify-content: left;
   padding-left: 135px;
-  align-items: left;
   display: flex;
   text-align: left;
 }
