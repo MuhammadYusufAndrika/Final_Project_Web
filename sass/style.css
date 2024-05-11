@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-#home {
+.kartu {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -39,23 +39,6 @@ section {
 }
 
 /* Style footer */
-footer {
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.footer.p {
-  background-color: #437fc7 !important;
-}
-
-footer.visible {
-  opacity: 1;
-}
-
 /* Style content */
 h1,
 h2,
@@ -126,7 +109,7 @@ ul li {
   background-color: #f5f5f5;
 }
 
-/*card body*/
+/* card body */
 .card {
   border-radius: 2em !important;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -134,17 +117,18 @@ ul li {
   text-align: left;
   width: calc(50% - 10px);
   margin-right: 40px;
-  background-color: #ffffff !important;
+  background-color: #ffffff;
   margin-bottom: 50px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease in out !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease-in-out !important;
 }
 
+/* card hover */
 .card:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.1) !important;
   box-shadow: 5px 5px 10px #727272;
 }
 
-/*image card*/
+/* image card */
 .card-img-top {
   text-align: left;
   background-color: #ffffff;
@@ -169,7 +153,7 @@ ul li {
   color: #555;
 }
 
-/*card button*/
+/* card button */
 .btn.btn-primary {
   border-radius: 2em;
   background-color: #0073ff;
@@ -184,7 +168,7 @@ ul li {
 
 .card-info {
   font-size: 14px;
-  color: #888; /* Warna teks abu-abu */
+  color: #888;
   margin-top: 7px;
 }
 
@@ -198,12 +182,20 @@ ul li {
 }
 
 .accordion {
-  margin-bottom: 80px;
+  margin-bottom: 80px !important; /* Ubah nilai sesuai kebutuhan */
 }
 
 .accordion-item {
   width: 70%;
   margin: 0 auto;
+}
+
+#rate {
+  margin-top: 200px;
+}
+
+.div.accordion {
+  margin-bottom: 50px;
 }
 
 * {
@@ -222,7 +214,7 @@ div {
   height: 250px;
   margin-top: 20px;
   padding-top: 80px;
-  padding-left: 1cap;
+  padding-left: 135px;
 }
 
 .judul {
@@ -284,8 +276,4 @@ about.row_margin-top.col-sm-4_block1 {
 
 .btn.btn-secondary {
   border-radius: 2em;
-}
-
-.nav-item {
-  padding-left: 20px;
 }/*# sourceMappingURL=style.css.map */

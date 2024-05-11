@@ -2,16 +2,16 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
-#home {
+.kartu {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
   background-size: cover;
   background-position: center;
-
 }
 
 /*Pilih Paketmu*/
@@ -39,21 +39,21 @@ section {
 }
 
 /* Style footer */
-footer {
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease;  
-}
-.footer.p{
-  background-color: #437fc7 !important;
-}
+// footer {
+//   position: fixed;
+//   text-align: center;
+//   width: 100%;
+//   bottom: 0;
+//   opacity: 0;
+//   transition: opacity 0.5s ease;  
+// }
+// .footer.p{
+//   background-color: #437fc7 !important;
+// }
 
-footer.visible{
-opacity: 1;
-}
+// footer.visible{
+// opacity: 1;
+// }
 
 /* Style content */
 h1,
