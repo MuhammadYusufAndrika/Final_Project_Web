@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="sass/style.scss" />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <title>About - SPN</title>
-    <link rel="shortcut icon" href="/assets/images/banner.jpg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>SPN-Surya Prima Net</title>
   </head>
+
   <body>
     <!-- Navbar sementara -->
     <section>
@@ -55,7 +59,7 @@
     </section>
     <!-- End Navbar -->
 
-    <!-- Corrousel About -->
+    <!-- Corrousel Jarkom -->
     <section>
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -84,43 +88,89 @@
         </button>
       </div>
     </section>
-    <!-- End Corrousel About -->
+    <!-- End Corrousel Jarkom -->
 
-    <!-- What is Jsn -->
-    <section id="deskripsi">
+    <!-- CCTV Teks -->
+    <section>
       <div class="container my-5">
-        <div id="Home" class="row align-items-center">
-          <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1000">
-            <img src="assets/images/About.jpg" alt="About Me" class="img-fluid" />
-          </div>
-          <div class="col-md-6">
-            <h2>
-              <span class="text-primary">Tentang</span>
-              <span class="text-danger">Surya Prima Net </span>
-            </h2>
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-1">
+            <!-- Order untuk mengatur urutan -->
             <div>
-              <p>Surya Prima Net adalah perusahaan ISP atau Penyedia Layanan Internet serta Technology Solution yang menjadikan kualitas dan layanan internet sebagai prioritas utama.</p>
-              <p>Kami berkomitmen untuk menjadi Penyedia Layanan Internet terbaik dan dapat diandalkan untuk keperluan komunikasi data perusahaan Anda serta menjadi mitra terbaik untuk kemajuan perusahaan Anda.</p>
-              <h2>
-                <span class="text-primary">Visi & Misi</span>
-                <span class="text-danger">Surya Prima Net </span>
-              </h2>
-              <p>Kami berkomitmen untuk menjadi Penyedia Layanan Internet terbaik dan dapat diandalkan untuk keperluan komunikasi data perusahaan Anda serta menjadi mitra terbaik untuk kemajuan perusahaan Anda.</p>
-              <h2>
-                <span class="text-primary">Komitmen</span>
-                <span class="text-danger">Surya Prima Net </span>
-              </h2>
+              <h2 class="text-primary">Layanan Jaringan Komputer</h2>
               <p>
-                Kami memiliki komitmen yang teguh untuk komunikasi yang terbuka, jujur, dan tepat waktu. Kejelasan dalam memahami tujuan kami dan apa yang kami harapkan dari satu sama lain adalah sangat penting untuk membuat keputusan
-                terbaik serta memberikan layanan yang unggul.
+                Layanan jaringan komputer mencakup berbagai fitur dan kemampuan yang memungkinkan komunikasi, berbagi sumber daya, dan akses ke informasi. Ini termasuk komunikasi antara pengguna, akses ke berkas dan perangkat, fitur
+                keamanan untuk melindungi data, alat manajemen jaringan, penyediaan layanan seperti email, serta upaya untuk memastikan ketersediaan dan kinerja jaringan yang optimal.
               </p>
-              <p>SPN berdedikasi untuk menjadi penyedia layanan internet terbaik dan aman, untuk mencapai ini kami merangkul tim-tim yang handal yang bisa mendorong tujuan kami khususnya untuk keberhasilan tujuan perusahaan.</p>
             </div>
+          </div>
+          <div class="col-md-5 order-md-2" data-aos="zoom-in" data-aos-duration="2000">
+            <!-- Menggunakan order untuk posisi gambar -->
+            <img src="assets/images/Our.jpg" alt="About Me" class="img-fluid" />
           </div>
         </div>
       </div>
     </section>
-    <!-- What is Jsn -->
+    <!-- End CCTV Teks -->
+
+    <!-- Card  -->
+    <section>
+      <!-- pilih paket -->
+      <div class="pilih-paket text-center my-5">
+        <h5>PAKET INTERNET PILIHAN</h5>
+        <h1>Pilih Paketmu</h1>
+      </div>
+
+      <!-- Product list Start -->
+      <section id="home">
+        <div class="row justify-content-center">
+          <div class="card m-3" style="width: 18rem" data-aos="zoom-in">
+            <img class="card-img-top" src="/assets/images/hijau.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Paket 1</h5>
+              <h5>2Mega</h5>
+              <h1 class="card-text">Rp200rb/ bulan</h1>
+              <p class="card-info">*belum termasuk Ppn 11%</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Beli Paket</button>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem" data-aos="zoom-in">
+            <img class="card-img-top" src="/assets/images/biru.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Paket 2</h5>
+              <h5>25Mega</h5>
+              <h1 class="card-text">Rp500rb/ bulan</h1>
+              <p class="card-info">*belum termasuk Ppn 11%</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Beli Paket</button>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem" data-aos="zoom-in">
+            <img class="card-img-top" src="/assets/images/emas.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Paket 3</h5>
+              <h5>30Mega</h5>
+              <h1 class="card-text">Rp1,5jt/ bulan</h1>
+              <p class="card-info">*belum termasuk Ppn 11%</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Beli Paket</button>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem" data-aos="zoom-in">
+            <img class="card-img-top" src="/assets/images/merah.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Paket 4</h5>
+              <h5>40Mega</h5>
+              <h1 class="card-text">Rp1,5jt/ bulan</h1>
+              <p class="card-info">*belum termasuk Ppn 11%</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Beli Paket</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- End Card -->
 
     <!-- Footer -->
     <footer class="text-center text-lg-start text-dark" style="background-color: #eceff1">
@@ -232,9 +282,11 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
+
+    <script src="assets/script/index.js"></script>
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script>
     feather.replace();
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
