@@ -96,7 +96,7 @@ ul {
 
 /* card hover */
 .card:hover {
-  transform: scale(1.1) !important;
+  transform: scale(1.05) !important;
   box-shadow: 5px 5px 10px #727272;
 }
 
@@ -171,10 +171,10 @@ ul {
 }
 
 .kotak1 {
+  background-image: image("assets/images/carousel-1 (1).jpg");
   background: #3259ab;
   color: white;
   height: 250px;
-  margin-top: 10px;
   padding-top: 80px;
   padding-left: 135px;
   padding-bottom: 80px;
@@ -188,12 +188,19 @@ ul {
 }
 
 .peta {
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 40px;
   justify-content: left;
   padding-left: 135px;
+  padding-right: 130px;
   display: flex;
   text-align: left;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.penutup {
+  padding-top: 80px;
 }
 
 .about {
