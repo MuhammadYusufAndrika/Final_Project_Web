@@ -50,19 +50,12 @@ ul {
   list-style-type: none;
 }
 
-.user {
-  margin-top: 100px;
-}
-
-.main-menu form {
-  margin: 100px;
-  border: 2px black;
+.user-profile {
   padding: 20px;
-}
-
-.flex-menu-form {
-  margin: 100px;
-  max-width: 1000px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(1, 1, 1, 0.2);
 }
 
 .navbar {
