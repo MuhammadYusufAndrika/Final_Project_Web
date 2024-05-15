@@ -256,4 +256,247 @@ about.row_margin-top.col-sm-4_block1 {
 
 .btn.btn-secondary {
   border-radius: 2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-form {
+  background-image: url("/assets/images/backregisterbaru.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* tampilan body */
+body {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* gradasi body */
+body::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  z-index: -1;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: center;
+}
+
+/* kartu dalam wadah */
+.container .card-login {
+  padding: 100px 40px;
+  position: center;
+  z-index: 4;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.082); /* latar belakang dengan keburaman */
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px); /* efek blur dengan backdrop filter */
+  border-radius: 30px;
+}
+
+.container .card-login h1 {
+  text-align: center;
+  color: cyan;
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form .input-group {
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+}
+
+form .input-group input {
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  padding: 9px;
+}
+
+form .btn-group {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+form .btn-group .btn {
+  padding: 9px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+form .btn-group .btn-login {
+  background-color: #1253b4;
+}
+
+form .btn-group .sosmed {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+form .btn-group .sosmed a {
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  position: relative;
+  transition: 0.3s;
+}
+
+form .btn-group .sosmed::before {
+  content: "";
+  display: flex;
+  top: 50%;
+  position: absolute;
+  height: 1px;
+  width: 40%;
+  left: -50px;
+  background-color: #d4dde2;
+}
+
+form .btn-group .sosmed::after {
+  content: "";
+  display: flex;
+  top: 50%;
+  position: absolute;
+  height: 1px;
+  width: 40%;
+  right: -50px;
+  background-color: #d4dde2;
+}
+
+form .btn-group .sosmed a:hover {
+  color: cyan;
+  transform: scale(1.2);
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  color: #1f07a8;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf5f5;
+}
+
+.Register-form {
+  background-image: url("/assets/images/backregisterbaru.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container-reg {
+  width: 500px;
+  margin-top: center;
+  background-color: rgba(255, 255, 255, 0.082);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(14, 6, 6, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: cyan;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.help-text {
+  color: #888;
+  font-size: 14px;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #2d5b8d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #1253b4;
 }/*# sourceMappingURL=style.css.map */
