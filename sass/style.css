@@ -277,10 +277,6 @@ about.row_margin-top.col-sm-4_block1 {
   border-radius: 2em;
 }
 
-.user-profile {
-  margin-top: 80px;
-}
-
 .col-md-3 {
   margin-top: 0px;
 }
@@ -288,6 +284,7 @@ about.row_margin-top.col-sm-4_block1 {
 .user-profile .d-flex {
   display: flex;
   margin: 0 auto;
+  align-self: center;
   max-width: 1200px;
   height: 90vh;
 }
@@ -346,6 +343,10 @@ about.row_margin-top.col-sm-4_block1 {
 #resetpasswordview {
   max-height: 300px;
   overflow-y: auto !important;
+}
+
+.section-page {
+  margin-bottom: 400px;
 }
 
 * {
