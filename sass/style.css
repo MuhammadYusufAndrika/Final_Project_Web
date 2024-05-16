@@ -186,6 +186,10 @@ ul {
   color: orange;
 }
 
+.peta-col-md6-row {
+  margin-left: 0%;
+}
+
 .peta {
   margin-top: 80px;
   margin-bottom: 40px;
@@ -253,7 +257,7 @@ about.row_margin-top.col-sm-4_block1 {
 }
 
 .col-md-3 {
-  margin-top: 200px;
+  margin-top: 0px;
 }
 
 .user-profile .d-flex {
@@ -469,7 +473,7 @@ form .btn-group .sosmed a:hover {
 }
 
 p {
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
 }
 
