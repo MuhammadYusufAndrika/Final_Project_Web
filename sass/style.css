@@ -170,7 +170,7 @@ ul {
 }
 
 .kotak1 {
-  background: #3259ab;
+  background: #2b08c9;
   color: white;
   height: 300px;
   padding-top: 100px;
@@ -200,6 +200,31 @@ ul {
   text-align: left;
   padding-bottom: 80px;
   padding-top: 80px;
+}
+
+.kantor {
+  color: black;
+}
+
+.kami {
+  color: orange;
+}
+
+.tombolkirim {
+  padding-left: 60px;
+}
+
+.textinfo {
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+
+.reporttext {
+  padding-left: 60px;
+}
+
+.reportbox {
+  background-color: yellowgreen;
 }
 
 .penutup {
