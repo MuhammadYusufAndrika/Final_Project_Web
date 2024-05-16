@@ -92,11 +92,35 @@
   <!-- End Navbar -->
 
   <!-- Banner -->
-  <section id="banner">
-    <div class="position-relative" style="height: 90vh; overflow: hidden">
-      <img src="assets/images/header-bg.jpg" class="img-fluid" alt="Layanan Internet Surya Prima NET"
-        style="object-fit: cover; width: 100%; height: 75vh " />
-      <div
+  <!-- Corrousel About -->
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner position-relative" style="width: 100%; height: 75vh">
+        <div class="carousel-item active">
+          <img src="assets/images/carousel-1 (1).jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carousel-2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carousel-3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div
         class="position-absolute top-50 start-50 translate-middle text-center d-flex flex-column align-items-center justify-content-center p-4">
         <h1 class="text-light mb-3">
           <span class="text-primary">Layanan Internet</span>
@@ -108,6 +132,7 @@
       </div>
     </div>
   </section>
+  <!-- End Corrousel About -->
   <!-- End Banner -->
 
   <!-- What is Jsn -->
