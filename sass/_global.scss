@@ -66,3 +66,16 @@ ul {
   list-style-type: none;
 }
 
+.carousel-inner .carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.carousel-inner .carousel-caption h1 {
+  font-size: 50px;
+}
+
+
