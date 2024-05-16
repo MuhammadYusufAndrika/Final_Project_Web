@@ -1,4 +1,3 @@
-/* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +27,6 @@
   margin: 0;
 }
 
-/* Set full height for sections */
 section {
   height: 60vh;
   display: flex;
@@ -37,7 +35,6 @@ section {
   text-align: center;
 }
 
-/* Style footer */
 /* Style content */
 h1,
 h2,
@@ -121,7 +118,7 @@ ul {
 .card-text {
   font-size: 30px;
   font-weight: bold;
-  color: #0073ff; /* Warna teks biru */
+  color: #0073ff;
 }
 
 .card-title {
@@ -141,7 +138,7 @@ ul {
 .btn.btn-primary {
   border-radius: 2em;
   background-color: #0073ff;
-  color: #fff; /* Warna teks putih */
+  color: #fff;
   font-size: 14px;
   text-decoration: none;
 }
@@ -166,7 +163,7 @@ ul {
 }
 
 .accordion {
-  margin-bottom: 80px !important; /* Ubah nilai sesuai kebutuhan */
+  margin-bottom: 80px !important;
 }
 
 .accordion-item {
