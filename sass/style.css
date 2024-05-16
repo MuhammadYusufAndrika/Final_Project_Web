@@ -260,6 +260,16 @@ about.row_margin-top.col-sm-4_block1 {
   margin-top: 300px;
 }
 
+.col-md-3 {
+  margin-top: 200px;
+}
+
+.list-group {
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(1, 1, 1, 0.2);
+}
+
 * {
   margin: 0;
   padding: 0;
