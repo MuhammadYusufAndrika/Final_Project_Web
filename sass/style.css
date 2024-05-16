@@ -285,8 +285,8 @@ about.row_margin-top.col-sm-4_block1 {
   display: flex;
   margin: 0 auto;
   align-self: center;
-  max-width: 1200px;
-  height: 90vh;
+  max-width: 1300px;
+  height: 85vh;
 }
 
 .sidebar-profile {
@@ -338,6 +338,7 @@ about.row_margin-top.col-sm-4_block1 {
   margin-top: 20px;
   border-right: 1px solid #ccc;
   overflow-y: auto;
+  overflow: hidden;
 }
 
 #resetpasswordview {
